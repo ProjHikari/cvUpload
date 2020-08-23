@@ -50,7 +50,7 @@ class Upload extends React.Component<any, any, any> {
                 </div>
                 <div>
                     <label>File</label>
-                    <input type="file" onChange={this.fileHandler} />
+                    <input type="file" onChange={this.fileHandler} accept=".pdf"/>
                 </div>
                 <button onClick={this.send}>Upload</button>
             </div>
